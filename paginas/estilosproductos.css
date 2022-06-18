@@ -1,0 +1,98 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }*
+
+        .inicioCompl{
+            background-color: rgb(11, 11, 11);
+        }
+        
+        .logoInicio{
+            width: 100px;
+            height: 58px;
+            display: block;
+            position: absolute;
+            left: 30px;
+
+        }
+        .barraMenu{
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            background: rgba(95, 38, 38, 0.5);
+            width: 50%;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .barraMenu li a{
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            display: block;
+        }
+        .barraMenu li{
+            display: inline-block;
+            text-align: right;
+        }
+        .barraMenu li a:hover{
+            background: #ef8354;
+        }
+
+        .fondoPr{
+            background: url("https://scontent.fepa2-1.fna.fbcdn.net/v/t1.6435-9/119097010_1600685743452429_5478499972844125379_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=973b4a&_nc_ohc=KUmDVw9zSbwAX-48cWM&_nc_ht=scontent.fepa2-1.fna&oh=00_AT-Y9EfK3QwGatgBxoN_6R5M4NYnyX9KtKXhc6-T3JfgvQ&oe=62D0D15B") no-repeat center center fixed ;
+            background-size: cover; 
+            
+            
+        }
+        .titTabla{
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+            font-family: 'IBM Plex Mono', monospace; 
+            font-style: italic;
+            font-size: 35px large;
+        }
+        .titTabla--margen--20px{
+        margin-bottom: 20px;
+
+        }
+        .tablaEmpanada{
+            margin: 0 auto;
+            width: 60%;
+            border: 9px;
+            background-color: rgba(0, 0, 0, 0.5);
+            font-size: 15px;
+        }
+        .tablaEmpanada--borde--8px{
+        border-top: inset;
+        border-left: inset;
+        border-color: rgba(5, 4, 4, 0.712);
+        }
+        
+        .saborEmp{
+            padding: 10px;
+            text-align: center;
+            color: white;
+            font-family: 'Fascinate' cursive;
+
+            
+        }
+        .finPag{
+            color: wheat;
+
+        }
+        .footer{
+            text-align: right;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            margin-right: 15px;
+        }
+
+        .redes{
+            text-align: left;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 14px;
+            margin-left: 15px;
+            
+        }
